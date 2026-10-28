@@ -1,0 +1,58 @@
+{
+ "unpaired": {
+  "50": 0.2317,
+  "58": 0.2115,
+  "85": 0.1635,
+  "100": 0.1493,
+  "129": 0.1274,
+  "300": 0.0758,
+  "500": 0.0565
+ },
+ "unpaired_normal_approx": {
+  "50": 0.152,
+  "58": 0.1411,
+  "85": 0.1166,
+  "100": 0.1075,
+  "129": 0.0946,
+  "300": 0.0621,
+  "500": 0.0481
+ },
+ "paired": {
+  "50": {
+   "0.02": null,
+   "0.04": null,
+   "0.08": null
+  },
+  "58": {
+   "0.02": null,
+   "0.04": null,
+   "0.08": null
+  },
+  "85": {
+   "0.02": null,
+   "0.04": null,
+   "0.08": null
+  },
+  "100": {
+   "0.02": null,
+   "0.04": null,
+   "0.08": 0.0789
+  },
+  "129": {
+   "0.02": null,
+   "0.04": null,
+   "0.08": 0.0693
+  },
+  "300": {
+   "0.02": null,
+   "0.04": 0.0329,
+   "0.08": 0.0468
+  },
+  "500": {
+   "0.02": 0.0177,
+   "0.04": 0.0256,
+   "0.08": 0.0363
+  }
+ },
+ "note": "baseline p=0.08; alpha=0.05 two-sided; power=0.80. 'unpaired' = EXACT Fisher MDE (correct at low p); 'unpaired_normal_approx' = normal approximation (anti-conservative, for comparison only). delta is an ABSOLUTE score difference (resolve-rate points). LB gives no per-task data \u2192 discordance is assumed, not observed."
+}
